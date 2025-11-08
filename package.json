@@ -1,6 +1,9 @@
 {
   "name": "news-app",
   "version": "0.1.0",
+    "resolutions": {
+      "ajv": "^8.8.2"
+    },
   "private": true,
   "dependencies": {
     "@testing-library/dom": "^10.4.1",
