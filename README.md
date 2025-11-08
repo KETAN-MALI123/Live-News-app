@@ -1,5 +1,8 @@
 1. Project Title & Description
 # Live News App
+     ## 🌐 Live Demo
+[View Live Site](https://live-news-app-five.vercel.app/sports)
+
 A real-time news application built with React.js featuring latest news updates.
 A modern, responsive news application built with React.js that delivers real-time news updates from various categories.
 
