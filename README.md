@@ -1,70 +1,72 @@
-# Getting Started with Create React App
+1. Project Title & Description
+# Live News App
+A real-time news application built with React.js featuring latest news updates.
+A modern, responsive news application built with React.js that delivers real-time news updates from various categories.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<img width="1918" height="905" alt="image" src="https://github.com/user-attachments/assets/92721526-84de-4857-9720-0cae37e2520c" />
+<img width="1914" height="915" alt="image" src="https://github.com/user-attachments/assets/30fce8c5-b877-4be0-80bb-f2a3e4be1475" />
 
-## Available Scripts
+2. Features List
+   ## ✨ Features
+- 📰 Latest news headlines
+- 🔍 Search functionality  
+- 📱 Responsive design
+- ♾️ Infinite scroll
+- ⚡ Fast loading
 
-In the project directory, you can run:
+  3. Tech Stack
+     ## 🛠️ Tech Stack
+- React.js
+- CSS3 
+- News API
+- Vercel (Deployment)
 
-### `npm start`
+  4. Live Demo
+     ## 🌐 Live Demo
+[View Live Site](https://live-news-app-five.vercel.app/sports)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+5. Installation & Local Setup
+   ## 🚀 Local Development
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/KETAN-MALI123/Live-News-app.git
+   cd Live-News-app
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+   📁 Project Structure
+   Live-News-app/
+├── public/
+│   ├── index.html
+│   └── favicon.ico
+├── src/
+│   ├── components/
+│   │   ├── NavBar.js & NavBar.css
+│   │   ├── News.js & News.css
+│   │   ├── NewsItem.js & NewsItem.css
+│   │   └── Spinner.js & Spinner.css
+│   ├── data/
+│   ├── App.js & App.css
+│   ├── index.js & index.css
+│   └── setupTests.js
+├── package.json
+└── README.md
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+🎯 Components Overview:
+- NavBar: Navigation header with app title
+- News: Main news container with category selection
+- NewsItem: Individual news article card
+- Spinner: Loading animation component
 
-### `npm run build`
+🌐 API Integration
+This app integrates with a news API to fetch:
+- Top headlines
+- Category-based news (Technology, Sports, Business, etc.)
+- Search results
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+📧 Contact
+Developer: Ketan Mali
+- GitHub: KETAN-MALI123
+- Project Link: Live News App Repository
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+📄 License
+This project is open source and available under the MIT License.
